@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #869ccc;
+    margin: 0;
+    padding: 0;
+}
+
+#main_container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #3c75ccd5;
+    border: 1px solid #7880aa;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#section1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#section2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#section3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#box1 {
+    width: 60%; 
+    padding: 20px;
+    background-color: #3c75ccd5;
+    border: 1px solid #7880aa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+#box2, #box3 {
+    width: 45%; 
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #3c75ccd5;
+    border: 1px solid #7880aa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+#box4, #box5 {
+    width: 45%; 
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #3c75ccd5;
+    border: 1px solid #7880aa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+h1, h2, h3 {
+    color: #333;
+    margin: 0;
+}
+
+img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+p {
+    margin: 0;
+}
+
+
+
+
+.section2 {
+    width: 30%;
+    height: 200px;
+    background-color: #3c75ccd5;
+    border: 1px solid #7880aa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.section3 {
+    width: 30%;
+    height: 200px;
+    background-color: #3c75ccd5;
+    border: 1px solid #7880aa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#section2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#container1 {
+    width: 60%;
+    padding: 20px;
+    background-color: #3c75ccd5;
+    border: 1px solid #7880aa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#container2 {
+    width: 38%;
+    padding: 20px;
+    background-color: #3c75ccd5;
+    border: 1px solid #7880aa;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
