@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+        <style>
+            body {
+                background-color: #007bff; 
+            }
+    
+            .transition-image {
+                transition: transform 0.3s ease-in-out;
+            }
+    
+            .transition-image:hover {
+                transform: scale(1.1);
+            }
+        </style>
+    </head>
+  <body>
+    <div class="p-3 mb-2 bg-success text-white">
+        https://www.randomwebsite.com
+    </div>
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light" href="#">My Random Webpage</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon text-light"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-light" href="#">Holiday Deals</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle text-light"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Language
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li><a class="dropdown-item text-light" href="#">Espanol</a></li>
+                  <li><a class="dropdown-item text-light" href="#">French</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Russian</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Italian</a></li>
+                  <li><a class="dropdown-item text-light" href="#">Arabic (العربية)</a></li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item text-light" href="#">Current Language: English</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled text-light" aria-disabled="true">Help</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-warning" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container-fluid">
+      <div class="row">
+   
+<nav class="col-md-2 d-none d-md-block bg-dark sidebar mt-3">
+    <div class="sidebar-sticky">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link active text-light" href="#"> My Account </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"> My Orders </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"> Clothing </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"> Electronics </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"> Sports </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"> Automotive </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"> Books </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" href="#"> Contact Seller </a>
+        </li>
+     
+      </ul>
+    </div>
+  </nav>
+<!-- Main Content -->
+<main role="main" class="col-md-8 ml-sm-auto col-lg-9 px-4 bg-primary">
+    <div class="text-center text-light">
+      <h1 class="mt-4">Best Sellers!</h1>
+      <div class="row mt-4">
+        <!-- Existing Boxes -->
+        <div class="col-md-4 mb-4">
+          <div class="card bg-dark text-light">
+            <img src="https://www.meijer.com/content/dam/meijer/product/0088/38/1389/09/0088381389097_1_A1C1_0600.png" class="img-fluid rounded-circle transition-image" alt="Image 1">
+            <div class="card-body">
+              <h5 class="card-title">Wilson NFL Football</h5>
+              <p class="card-text text-success">$19.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card bg-dark text-light">
+            <img src="https://i0.wp.com/9to5mac.com/wp-content/uploads/sites/6/2023/07/iPhone-15-Mockup-all-colors.jpg?resize=1200%2C628&quality=82&strip=all&ssl=1" class="img-fluid rounded-circle transition-image" alt="Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Apple iPhone 15 (Used)</h5>
+              <p class="card-text text-success">$999.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card bg-dark text-light">
+            <img src="https://i0.wp.com/www.unitseastbay.com/wp-content/uploads/2017/08/Flat-screen-tv-packing-01.jpg?fit=1280%2C853&ssl=1" class="img-fluid rounded-circle transition-image" alt="Image 3">
+            <div class="card-body">
+              <h5 class="card-title">55 in. LG Flatscreen T.V</h5>
+              <p class="card-text text-success">$649.99</p>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 mb-4">
+          <div class="card bg-dark text-light">
+            <img src="https://fuzionproscooter.com/cdn/shop/products/2022-z350-932607_800x.png?v=1645656260" class="img-fluid rounded-circle transition-image" alt="Image 4">
+            <div class="card-body">
+              <h5 class="card-title">The Fuzion 2022 Z350</h5>
+              <p class="card-text text-success">$129.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card bg-dark text-light">
+            <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/6523/6523224_sd.jpg" class="img-fluid  transition-image" alt="Image 5">
+            <div class="card-body">
+              <h5 class="card-title">Sony PlayStation 5 Digital Edition God of War Ragnarök Console Bundle White"</h5>
+              <p class="card-text text-success">$549.99</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="card bg-dark text-light">
+            <img src="https://i5.walmartimages.com/seo/ViprTech-com-Ultimate-Gaming-PC-Desktop-Computer-Intel-i5-4th-Gen-NVIDIA-GTX-1060-6GB-16GB-RAM-1TB-VR-Ready-Wifi-RGB-Fans-1-Year-Warranty-Fast-Ship-W_6952421c-a067-4621-9566-c6fa13972b40.5ec0c34d9c720f318466a1215fb8d187.png" class="img-fluid  transition-image" alt="Image 6">
+            <div class="card-body">
+              <h5 class="card-title"> Ultimate Gaming PC Desktop Computer - Intel i5 4th Gen, NVIDIA GTX 1060 6GB </h5>
+              <p class="card-text text-success">$699.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
